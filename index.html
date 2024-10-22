@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <title>Dhita's Portofolio</title>
+    <title>Dhita's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- Main Content -->
-    <h1>Dhita's Portofolio</h1>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#snw">Strengths & Weaknesses</a></li>
+            <li><a href="#favorite-lagu">Favorite Song</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- Image Section -->
-    <div>
-        <img src="header.png" alt="Pradhita Pameswari" width="800" height="330">
-    </div>
+    <section class="hero-section">
+        <h1>Welcome to <span><u>Dhita's Creative World</u></span></h1>
+    </section>    
 
-    <!-- Short Desc Section -->
-    <div>
-        <h2>About Me</h2>
-        <p>
-            I have a strong passion for the fusion of technology and creativity, particularly in the field of digital design.<br>
-            My unique skills include proficiency in<mark> digital design</mark>, enabling me to creatively engage with diverse audiences<br>
-            while showcasing my technical expertise.
-        </p>
-        <p>
-            I am excited to immerse myself in<code> Universitas Pertamina’s </code>vibrant campus community, build lifelong connections,<br>
-            and explore my academic interests, all while continuously refining my digital design skills and pursuing<br>
-            new knowledge in areas beyond design as well.
-        </p>
-    </div>
+    <!-- Home and About Me Section (Sebelahan) -->
+    <section class="home-aboutme-section">
+        <div id="profile">
+            <img src="1.png" alt="Pradhita Pameswari" width="330" height="330">
+        </div>
+        
+        <!-- About Me Section -->
+        <div class="aboutme-section">
+            <h1>Hi! I'm Pradhita Pameswari,<br> 
+                <span class="designer-text">a Junior Graphic Designer</span></h1>
+            <p>
+                I have a strong passion for the fusion of technology and creativity, <br>
+                particularly in the field of digital design.<br>
+                My unique skills include proficiency in digital design, enabling me to creatively engage with diverse audiences while showcasing my technical expertise.
+            </p>
+            <p>
+                I am excited to immerse myself in <code>Universitas Pertamina’s</code> vibrant campus community, build lifelong connections,and explore my academic interests, <br>
+                all while continuously refining my digital design skills and pursuing new knowledge in areas beyond design as well.
+            </p>
+        </div>
+    </section>
 
-    <!-- Contact Section -->
-    <div>
-        <h2>Contact Me</h2>
-        <p>
-            <b>Email:</b> ppameswari@gmail.com <br>
-            <b>Phone:</b> +62-812-1317-0357 <br>
-            <b>Instagram:</b> <a href="https://www.instagram.com/dhiitap_/" target="IG Dhita">dhiitap_</a> <br>
-            <b>Address:</b> Puri Bojong Lestari 2, Jln. Puri Lestari 7, Blok CK no.01, RT 002/ RW 017, Pabuaran, Bojong Gede, Jawa Barat, Kabupaten Bogor
-        </p>
-    </div>
-
-    <!-- Educational Background Section -->
-    <div>
+    <!-- Educational Background -->
+    <section id="education">
         <h2>Education</h2>
         <p>
             <b>Pertamina University - Computer Science</b> (2022 - Present)<br>
             <b>Attaqwa Islamic Senior High School Cibubur - Science Major</b> (2019 - 2022)
         </p>
-    </div>
+    </section>
 
-    <!-- Organizational Experience Section -->
-    <div>
-        <h2>Organizational Experience</h2>
-        <ul>
-            <li>
-                <b>Head of Creative Media Division - SPACE UP 6.0</b> (2023 - 2024)<br>
-                Strengthened teamwork and time management, studied Instagram algorithms for media strategy,<br>
-                and learned basic <u>Photoshop, Adobe Illustrator, and Figma.</u><br>
-                Also managed certificate numbers using Google Spreadsheets.
-            </li>
-            <li>
-                <b>Staff of Creative Media Division - CITE UP 2024</b> (2024)<br>
-                Deepened expertise in Figma for design projects.
-            </li>
-            <li>
-                <b>Staff of Creative Media Division - CITE UP 6.0</b> (2022 - 2023)<br>
-                Deepened expertise in Canva for design projects.
-            </li>
-        </ul>
-    </div>
+    <!-- Experience Section -->
+    <section id="experience">
+        <div>
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <b>Head of Creative Media Division - SPACE UP 6.0</b> (2023 - 2024)<br>
+                    Strengthened teamwork and time management, studied Instagram algorithms for media strategy,<br>
+                    and learned basic <u>Photoshop, Adobe Illustrator, and Figma.</u><br>
+                    Also managed certificate numbers using Google Spreadsheets.
+                </li>
+                <li>
+                    <b>Staff of Creative Media Division - CITE UP 2024</b> (2024)<br>
+                    Deepened expertise in Figma for design projects.
+                </li>
+                <li>
+                    <b>Staff of Creative Media Division - CITE UP 6.0</b> (2022 - 2023)<br>
+                    Deepened expertise in Canva for design projects.
+                </li>
+            </ul>
+        </div>
+    </section>
 
-    <!-- Skills Section -->
-    <div>
+    <!-- Skills -->
+    <section id="skill">
         <h2>Skills</h2>
         <ol>
             <li>Digital Design</li>
             <li>Web Design</li>
             <li>Able to work in a team</li>
         </ol>
-    </div>
+    </section>
 
-    <!-- Strengths and Weaknesses Section jadi Table -->
-    <div>
+    <!-- Strengths and Weaknesses -->
+    <section id="snw">
         <h2>Strengths & Weaknesses</h2>
         <table border="1">
             <tr>
@@ -99,16 +107,40 @@
                 <td>Adaptable to technology</td>
             </tr>
         </table>
-    </div>
+    </section>
+
+    <!-- Favorite Song Section -->
+    <section id="favorite-lagu">
+        <h2>Favorite Song</h2>
+        <div class="lagu-container">
+            <audio id="lagu-player" controls>
+                <source src="ENHYPEN - XO (Only If You Say Yes) (English Ver.).mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <video id="lagu-video" controls>
+                <source src="videoplayback.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            <b>Email:</b> ppameswari@gmail.com <br>
+            <b>Phone:</b> +62-812-1317-0357 <br>
+            <b>Instagram:</b> <a href="https://www.instagram.com/dhiitap_/" target="_blank">dhiitap_</a> <br>
+        </p>
+    </section>
 
     <!-- Quote Section -->
-     <div>
-        <h3>Quote</h3>
+    <section class="quote-h2">
+        <h2>Quote</h2>
         <blockquote> 
             "ISO ORA ISO, HALSUISSEO(할 수 있어)"<br>
             - Jeonghan SVT
         </blockquote>
-     </div>
-
+    </section>
 </body>
 </html>
