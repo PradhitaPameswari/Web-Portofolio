@@ -15,7 +15,7 @@
             <li><a href="#skill">Skills</a></li>
             <li><a href="#snw">Strengths & Weaknesses</a></li>
             <li><a href="#favorite-lagu">Favorite Song</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contactform">Contact Form</a></li>
         </ul>
     </nav>
 
@@ -126,7 +126,7 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2>My Contact</h2>
         <p>
             <b>Email:</b> ppameswari@gmail.com <br>
             <b>Phone:</b> +62-812-1317-0357 <br>
@@ -134,13 +134,28 @@
         </p>
     </section>
 
-    <!-- Quote Section -->
-    <section class="quote-h2">
-        <h2>Quote</h2>
-        <blockquote> 
-            "ISO ORA ISO, HALSUISSEO(할 수 있어)"<br>
-            - Jeonghan SVT
-        </blockquote>
+    <!-- Contact Form Section -->
+    <section id="contactform">
+        <h2>Contact Me</h2><br>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required><br><br>
+    
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="usa">USA</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+    
+                <input type="submit" value="Submit">
+        </form>
     </section>
 </body>
 </html>

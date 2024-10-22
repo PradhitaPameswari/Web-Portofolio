@@ -230,20 +230,60 @@ table, th, td {
     font-size: 19.2px; 
 }
 
-/* Bagian Blockquote */
-.blockquote {
-    font-size: 24px; 
-    font-weight: bold;
-    color: #342716;
-    text-align: center;
-    margin: 50px 0;
-    background-color: #CDB693;
+/* Bagian Contact Form */
+#contactform {
+    margin: auto auto;
+    max-width: 600px;
+    border-radius: 10px;
 }
 
-.quote-h2{
-    font-size: 19.2px;
+#contactform h2 {
+    text-align: center;
+    color: #342716;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#contactform form {
+    display:flex;
+    flex-direction: column;
+}
+
+/* Input */
+#contactform input[type="text"],
+#contactform input[type="email"],
+#contactform input[type="number"],
+#contactform select {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 19,2px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#contactform label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Tombol Submit */
+#contactform input[type="submit"] {
+    background-color: #5D3D1D;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
     font-weight: bold;
-    text-align: center
+    margin-top: 20px;
+}
+
+#contactform input[type="submit"]:hover {
+    background-color: #5D3D1D;
 }
 
 @media (max-width: 768px) {
