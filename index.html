@@ -1,161 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head> 
-    <title>Dhita's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhita's Portofolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <h1 id="judul">🐻Dhita's Portofolio🍯</h1>
+    </header>
+
     <!-- Navigation -->
     <nav>
         <ul>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#skill">Skills</a></li>
-            <li><a href="#snw">Strengths & Weaknesses</a></li>
-            <li><a href="#favorite-lagu">Favorite Song</a></li>
-            <li><a href="#contactform">Contact Form</a></li>
         </ul>
-    </nav>
+    </nav>  
 
-    <section class="hero-section">
-        <h1>Welcome to <span><u>Dhita's Creative World</u></span></h1>
-    </section>    
+    <!-- Main Content Layout -->
+    <div class="main-container">
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <!-- Home and About Me Section -->
+            <section class="home-aboutme-section">
+                <div id="profile">
+                    <img src="1.png" alt="Pradhita Pameswari" width="330" height="330">
+                </div>
+                
+                <!-- About Me Section -->
+                <div class="aboutme-section">
+                    <h1>Hi! I'm Pradhita Pameswari🍯,<br> 
+                        <span class="designer-text">a Junior Graphic Designer</span></h1>
+                    <p>
+                        I have a strong passion for the fusion of technology and creativity, <br>
+                        particularly in the field of digital design.<br>
+                        My unique skills include proficiency in digital design, enabling me to creatively engage with diverse audiences while showcasing my technical expertise.
+                    </p>
+                    <p>
+                        I am excited to immerse myself in <code>Universitas Pertamina’s</code> vibrant campus community, build lifelong connections, and explore my academic interests, <br>
+                        all while continuously refining my digital design skills and pursuing new knowledge in areas beyond design as well.
+                    </p>
+                </div>
+            </section>
 
-    <!-- Home and About Me Section (Sebelahan) -->
-    <section class="home-aboutme-section">
-        <div id="profile">
-            <img src="1.png" alt="Pradhita Pameswari" width="330" height="330">
+            <!-- Educational Background -->
+            <section id="education">
+                <h2>Education🍯</h2>
+                <p>
+                    <b>Pertamina University - Computer Science</b> (2022 - Present)<br>
+                    <b>Attaqwa Islamic Senior High School Cibubur - Science Major</b> (2019 - 2022)
+                </p>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience">
+                <h2>Experience🍯</h2>
+                <ul>
+                    <li><b>Head of Creative Media Division - SPACE UP 6.0</b> (2023 - 2024)<br> Strengthened teamwork and time management, studied Instagram algorithms for media strategy, and learned basic <u>Photoshop, Adobe Illustrator, and Figma.</u><br> Also managed certificate numbers using Google Spreadsheets.</li>
+                    <li><b>Staff of Creative Media Division - CITE UP 2024</b> (2024)<br> Deepened expertise in Figma for design projects.</li>
+                    <li><b>Staff of Creative Media Division - CITE UP 6.0</b> (2022 - 2023)<br> Deepened expertise in Canva for design projects.</li>
+                </ul>
+            </section>
         </div>
-        
-        <!-- About Me Section -->
-        <div class="aboutme-section">
-            <h1>Hi! I'm Pradhita Pameswari,<br> 
-                <span class="designer-text">a Junior Graphic Designer</span></h1>
-            <p>
-                I have a strong passion for the fusion of technology and creativity, <br>
-                particularly in the field of digital design.<br>
-                My unique skills include proficiency in digital design, enabling me to creatively engage with diverse audiences while showcasing my technical expertise.
-            </p>
-            <p>
-                I am excited to immerse myself in <code>Universitas Pertamina’s</code> vibrant campus community, build lifelong connections,and explore my academic interests, <br>
-                all while continuously refining my digital design skills and pursuing new knowledge in areas beyond design as well.
-            </p>
-        </div>
-    </section>
 
-    <!-- Educational Background -->
-    <section id="education">
-        <h2>Education</h2>
-        <p>
-            <b>Pertamina University - Computer Science</b> (2022 - Present)<br>
-            <b>Attaqwa Islamic Senior High School Cibubur - Science Major</b> (2019 - 2022)
-        </p>
-    </section>
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <!-- Skills Section -->
+            <section id="skill">
+                <h2>Skills🐻</h2>
+                <div class="skills-grid">
+                    <div class="skill-item skill-item-1">
+                        <div class="skill-title">Desain Digital</div>
+                        <div class="skill-des">
+                            Pengalaman dalam Adobe Photoshop, Illustrator, dan Canva untuk menciptakan desain menarik.
+                        </div>
+                    </div>
+                    <div class="skill-item skill-item-2">
+                        <div class="skill-title">Figma</div>
+                        <div class="skill-des">
+                            Penggunaan dasar Figma untuk wireframe dan prototipe UI/UX.
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div>
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <b>Head of Creative Media Division - SPACE UP 6.0</b> (2023 - 2024)<br>
-                    Strengthened teamwork and time management, studied Instagram algorithms for media strategy,<br>
-                    and learned basic <u>Photoshop, Adobe Illustrator, and Figma.</u><br>
-                    Also managed certificate numbers using Google Spreadsheets.
-                </li>
-                <li>
-                    <b>Staff of Creative Media Division - CITE UP 2024</b> (2024)<br>
-                    Deepened expertise in Figma for design projects.
-                </li>
-                <li>
-                    <b>Staff of Creative Media Division - CITE UP 6.0</b> (2022 - 2023)<br>
-                    Deepened expertise in Canva for design projects.
-                </li>
-            </ul>
-        </div>
-    </section>
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>My Contact🐻</h2>
+                <p>
+                    <b>Email:</b> ppameswari@gmail.com <br>
+                    <b>Phone:</b> +62-812-1317-0357 <br>
+                    <b>Instagram:</b> <a href="https://www.instagram.com/dhiitap_/" target="_blank">dhiitap_</a> <br>
+                </p>
+            </section>
+        </aside>
+    </div>
 
-    <!-- Skills -->
-    <section id="skill">
-        <h2>Skills</h2>
-        <ol>
-            <li>Digital Design</li>
-            <li>Web Design</li>
-            <li>Able to work in a team</li>
-        </ol>
-    </section>
-
-    <!-- Strengths and Weaknesses -->
-    <section id="snw">
-        <h2>Strengths & Weaknesses</h2>
-        <table border="1">
-            <tr>
-                <th colspan="2"><i>Strengths & Weaknesses</i></th>
-            </tr>
-            <tr>
-                <td><b><i>Weaknesses</i></b></td>
-                <td><b><i>Strengths</i></b></td>
-            </tr>
-            <tr>
-                <td>Unable to multitask</td>
-                <td>Eagerness to learn</td>
-            </tr>
-            <tr>
-                <td>Inexperience in traditional communication</td>
-                <td>Adaptable to technology</td>
-            </tr>
-        </table>
-    </section>
-
-    <!-- Favorite Song Section -->
-    <section id="favorite-lagu">
-        <h2>Favorite Song</h2>
-        <div class="lagu-container">
-            <audio id="lagu-player" controls>
-                <source src="ENHYPEN - XO (Only If You Say Yes) (English Ver.).mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
-            <video id="lagu-video" controls>
-                <source src="videoplayback.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>My Contact</h2>
-        <p>
-            <b>Email:</b> ppameswari@gmail.com <br>
-            <b>Phone:</b> +62-812-1317-0357 <br>
-            <b>Instagram:</b> <a href="https://www.instagram.com/dhiitap_/" target="_blank">dhiitap_</a> <br>
-        </p>
-    </section>
-
-    <!-- Contact Form Section -->
-    <section id="contactform">
-        <h2>Contact Me</h2><br>
-            <form action="/submit-form" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-    
-                <label for="age">Age:</label>
-                <input type="number" id="age" name="age" placeholder="Enter your age" required><br><br>
-    
-                <label for="country">Country:</label>
-                <select id="country" name="country">
-                    <option value="indonesia">Indonesia</option>
-                    <option value="usa">USA</option>
-                    <option value="other">Other</option>
-                </select><br><br>
-    
-                <input type="submit" value="Submit">
-        </form>
-    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pradhita Pameswari. All rights reserved.</p>
+    </footer>
 </body>
 </html>
