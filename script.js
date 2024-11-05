@@ -76,24 +76,30 @@ document.addEventListener("DOMContentLoaded", () => {
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         const phonePattern = /^[0-9]{10,15}$/;
 
+        // Validasi input
+        if (!name || !email || !phone || !description) {
+            alert("Harap isi semua field.");
+            return;
+        }
         if (!emailPattern.test(email)) {
             alert("Email tidak valid. Harap masukkan email yang benar.");
             return;
         }
-
         if (!phonePattern.test(phone)) {
             alert("Nomor HP tidak valid. Harap masukkan nomor yang benar.");
             return;
         }
 
-        if (!name || !email || !phone || !description) {
-            alert("Harap isi semua field.");
-            return;
-        }
-
+        // Mengirim pesan ke WhatsApp jika semua validasi terpenuhi
         const message = `Nama: ${name}, Email: ${email}, Nomor HP: ${phone}, Deskripsi: ${description}`;
         const whatsappURL = `https://wa.me/81213170357?text=${encodeURIComponent(message)}`;
         
         window.open(whatsappURL, "_blank");
+    }
+
+    // Event listener untuk tombol kirim
+    const sendButton = document.getElementById("sendButton");
+    if (sendButton) {
+        sendButton.addEventListener("click", validateAndSend);
     }
 });
