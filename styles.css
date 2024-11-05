@@ -22,7 +22,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 nav ul li a {
@@ -46,7 +46,7 @@ nav ul li a {
 .sidebar {
     flex: 1; 
     border-radius: 10px;
-    padding: px; 
+    padding: 0; 
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     color: #342716; 
 }
@@ -61,14 +61,13 @@ nav ul li a {
 #judul {
     font-size: 2.5em;
     margin: 0;
-    font-weight: bold;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .home-aboutme-section {
     display: flex;
-    align-items: center;
     margin: 20px 0;
     background-color: #FFF1E4; 
     padding: 20px;
@@ -76,22 +75,25 @@ nav ul li a {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-#profile {
-    margin-right: 20px;
-}
-
 .aboutme-section h1 {
     color: #342716; 
+    font-weight: 800;
 }
 
 .designer-text {
-    color: #5D3D1D; 
+    color: #915d29; 
+}
+
+#profile {
+    margin-right: 20px;
+    margin-top: 110px; 
 }
 
 #profile img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 50%; 
+    align-items:flex-start;
 }
 
 section {
@@ -122,6 +124,44 @@ section {
 
 .skill-title {
     font-weight: bold;
+}
+
+#contact-form {
+    margin-top: 20px;
+    color: #342716;
+}
+
+#contact-form h3 {
+    color: #5D3D1D;
+    font-weight: bold;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: px;
+    border: 1px solid #CDB693;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    background-color: #915d29;
+    color: #FFF1E4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #5D3D1D;
 }
 
 footer {

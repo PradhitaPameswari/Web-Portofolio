@@ -77,7 +77,7 @@
                     <div class="skill-item skill-item-1">
                         <div class="skill-title">Desain Digital</div>
                         <div class="skill-des">
-                            Pengalaman dalam Adobe Photoshop, Illustrator, dan Canva untuk menciptakan desain menarik.
+                            Pengalaman dalam Adobe Photoshop, dan Canva untuk menciptakan desain menarik.
                         </div>
                     </div>
                     <div class="skill-item skill-item-2">
@@ -98,6 +98,27 @@
                     <b>Instagram:</b> <a href="https://www.instagram.com/dhiitap_/" target="_blank">dhiitap_</a> <br>
                 </p>
             </section>
+            
+            <!-- Contact Form -->
+            <section id="contact-form">
+                <h2>Contact Form🐻</h2>
+                <form id="contactForm">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Nomor HP:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    
+                    <label for="description">Deskripsi:</label>
+                    <textarea id="description" name="description" required></textarea>
+                    
+                    <button type="button" onclick="validateAndSend()">Kirim</button>
+                </form>
+            </section>
+            
         </aside>
     </div>
 
@@ -105,5 +126,6 @@
     <footer>
         <p>&copy; 2024 Pradhita Pameswari. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
